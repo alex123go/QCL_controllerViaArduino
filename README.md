@@ -11,12 +11,12 @@ It controls 4 output pins according to the serial messages received.
 
 ## Create executable file w/ WinPython
 In the WinPython-x.x folder, run "WinPython Command Prompt.exe"
-'''
+```
 pip install pyinstaller
 cd "here"
 pyinstaller --onefile QCL_GUI.py
 copy QCL_GUI.ui dist\
-'''
+```
 
 The last line is to make sure the .ui file follows the .exe file.
 You need to share both file for the software to work
