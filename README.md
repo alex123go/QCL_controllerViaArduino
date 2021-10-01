@@ -18,5 +18,5 @@ pyinstaller --onefile QCL_GUI.py
 copy QCL_GUI.ui dist\
 ```
 
-The last line is to make sure the .ui file follows the .exe file.
+The last line is to make sure the .ui file is kept with the .exe file.
 You need to share both file for the software to work
