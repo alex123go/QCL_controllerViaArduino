@@ -18,6 +18,7 @@ class QCL_GUI(QtWidgets.QWidget):
 		
 #		# self.loadInternalParameters()
 		self.initUI()
+		self.setWindowIcon(QtGui.QIcon('qcl500-oem.ico'))
 		self.show()
 		
 		
