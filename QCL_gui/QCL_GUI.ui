@@ -23,7 +23,7 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <widget class="QComboBox" name="comboBox_serial"/>
+         <widget class="QComboBox" name="comboPorts"/>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout">
