@@ -14,7 +14,7 @@ In the WinPython-x.x folder, run "WinPython Command Prompt.exe"
 ```
 pip install pyinstaller
 cd "here"
-pyinstaller --onefile QCL_GUI.py
+pyinstaller --onefile -w QCL_GUI.py
 copy QCL_GUI.ui dist\
 ```
 
